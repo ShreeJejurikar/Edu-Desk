@@ -14,7 +14,7 @@ import { ToastContainer } from "./components/Toast";
 import ConfirmModal from "./components/ConfirmModal";
 import { doSignOut } from "./firebase/auth";
 
-const API_BASE = "https://edudesk.onrender.com"
+const API_BASE = "http://localhost:5000"
 
 function App() {
   // UI State
